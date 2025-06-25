@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - EasyEstate</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar"></nav>
+    </header>
+    <main>
+        <div class="auth-container">
+            <div class="auth-form">
+                <h2>Create Your Account</h2>
+                <p>Join EasyEstate to find your perfect property</p>
+                <form id="signup-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <button type="submit" class="btn">Sign Up</button>
+                </form>
+                <p>Already have an account? <a href="login.html">Log in</a></p>
+            </div>
+        </div>
+    </main>
+    <script src="../config.js"></script>
+    <script src="../navbar.js"></script>
+    <script src="signup.js"></script>
+</body>
+</html> 
