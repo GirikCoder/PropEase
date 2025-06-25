@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         try {
-            const res = await fetch(`${API_BASE_URL}/api/properties`, {
+            const res = await fetch(`${API_BASE_URL}/api/property`, {
                 headers: {
                     'Authorization': `Bearer ${authToken}`
                 }
