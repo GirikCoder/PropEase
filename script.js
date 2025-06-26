@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
             card.innerHTML = `
                 <img src="${imageUrl}" alt="${property.address}">
                 <div class="property-card-content">
-                    <h3>${property.type}</h3>
+                    <h3>${property.address}</h3>
                     <p class="price">₹ ${property.price}</p>
-                    <p class="address">${property.address}</p>
+                    <p class="address">${property.prop_type}</p>
                     <a href="property.html?id=${property.property_id}">View Details</a>
                 </div>
             `;
